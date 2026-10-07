@@ -39,7 +39,7 @@ You have to complete the code in the existing file `./models/tennis.py` to imple
 
 ### 1.2 - Limiting distributions
 
-The Markov chain is not recurrent and therefore does not have a unique stationary distribution. 
+The Markov chain is not irreducible (it has absorbing states) and therefore does not have a unique stationary distribution. 
 It does have limiting distributions. Of course, they are not unique, but depend on the initial state.
 Since a tennis game always starts with the score (0, 0), we can compute the limiting distribution from this initial state.
 
